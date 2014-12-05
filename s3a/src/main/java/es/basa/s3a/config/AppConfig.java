@@ -1,4 +1,4 @@
-package es.basa.s3a.configuration;
+package es.basa.s3a.config;
 
 import java.util.Locale;
 import java.util.Properties;
@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.core.env.Environment;
@@ -18,9 +19,9 @@ import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.orm.hibernate4.support.OpenSessionInViewInterceptor;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
@@ -29,19 +30,20 @@ import org.thymeleaf.spring4.SpringTemplateEngine;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
+@EnableWebMvc
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "es.basa.s3a" })
+@ComponentScan({ "es.basa.s3a.*" })
+@Import({ SecurityConfig.class })
 @PropertySource(value = { "classpath:application.properties" })
-public class AppMVCConfig extends WebMvcConfigurerAdapter {
+public class AppConfig extends WebMvcConfigurerAdapter {
 
 	@Autowired
 	private Environment environment;
 
 	@Autowired
 	private SessionFactory sessionFactory;
-	
-	
+
 	// Configuracion de Spring MVC
 	@Bean
 	public ViewResolver viewResolver() {
@@ -57,10 +59,10 @@ public class AppMVCConfig extends WebMvcConfigurerAdapter {
 		return viewResolver;
 	}
 
-//	@Bean(name = "multipartResolver")
-//	public CommonsMultipartResolver getMultipartResolver() {
-//		return new CommonsMultipartResolver();
-//	}
+	// @Bean(name = "multipartResolver")
+	// public CommonsMultipartResolver getMultipartResolver() {
+	// return new CommonsMultipartResolver();
+	// }
 
 	@Bean(name = "messageSource")
 	public ReloadableResourceBundleMessageSource getMessageSource() {
@@ -84,7 +86,7 @@ public class AppMVCConfig extends WebMvcConfigurerAdapter {
 		registry.addWebRequestInterceptor(osiv);
 		registry.addInterceptor(new LocaleChangeInterceptor());
 	}
-	
+
 	// Configutación de Hibernate
 	@Bean
 	public LocalSessionFactoryBean sessionFactory() {
