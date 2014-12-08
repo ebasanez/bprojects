@@ -1,6 +1,7 @@
 package es.basa.s3a.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,8 +17,9 @@ public class HelloWorldController {
 	UserDAO userDAO;
 	
 	@RequestMapping("/hello")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ModelAndView showMessage(@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
-		userDAO.list();
+		userDAO.list().get(0).getUserRoles().iterator().next().getRole().getDescription();
 		ModelAndView mv = new ModelAndView("helloWorld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);

@@ -2,7 +2,7 @@
 *.bak
 **.class
 *MANIFEST.MF
-s3a/target/**
+*/target/*
 **rebel.xml
 **.min.css
 

@@ -21,5 +21,5 @@ abstract class BaseModelObject {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
+	
 }

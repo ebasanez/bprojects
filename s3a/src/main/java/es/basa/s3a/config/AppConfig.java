@@ -94,6 +94,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 		sessionFactory.setDataSource(dataSource());
 		sessionFactory.setPackagesToScan(new String[] { "es.basa.s3a.model" });
 		sessionFactory.setHibernateProperties(hibernateProperties());
+		sessionFactory.setNamingStrategy(new PluralTablesNamingStrategy());
 		return sessionFactory;
 	}
 
