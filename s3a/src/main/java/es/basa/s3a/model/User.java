@@ -5,7 +5,9 @@ import java.util.Set;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 
+import es.basa.s3a.model.enums.Role;
 import es.basa.s3a.model.enums.UserState;
+import es.basa.s3a.security.SocialMediaService;
 
 @Entity
 public class User extends BaseModelObject {
@@ -13,10 +15,12 @@ public class User extends BaseModelObject {
 	private String username;
 	private String password;
 	private String email;
+	private Role role;
 	private UserState userState;
+	private SocialMediaService signInProvider;
 
 	@OneToMany(mappedBy = "user")
-	private Set<UserRole> userRoles;
+	private Set<UserPermission> userPermissions;
 
 	public String getUsername() {
 		return username;
@@ -50,12 +54,28 @@ public class User extends BaseModelObject {
 		this.userState = userState;
 	}
 
-	public Set<UserRole> getUserRoles() {
-		return userRoles;
+	public Set<UserPermission> getUserPermissions() {
+		return userPermissions;
 	}
 
-	public void setUserRoles(Set<UserRole> userRoles) {
-		this.userRoles = userRoles;
+	public void setUserPermissions(Set<UserPermission> userPermissions) {
+		this.userPermissions = userPermissions;
+	}
+
+	public Role getRole() {
+		return role;
+	}
+
+	public void setRole(Role role) {
+		this.role = role;
+	}
+
+	public SocialMediaService getSignInProvider() {
+		return signInProvider;
+	}
+
+	public void setSignInProvider(SocialMediaService signInProvider) {
+		this.signInProvider = signInProvider;
 	}
 
 	@Override

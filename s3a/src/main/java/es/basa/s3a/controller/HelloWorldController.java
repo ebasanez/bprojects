@@ -19,10 +19,15 @@ public class HelloWorldController {
 	@RequestMapping("/hello")
 	@PreAuthorize("hasRole('ADMIN')")
 	public ModelAndView showMessage(@RequestParam(value = "name", required = false, defaultValue = "World") String name) {
-		userDAO.list().get(0).getUserRoles().iterator().next().getRole().getDescription();
+		userDAO.list().get(0).getUserPermissions().iterator().next().getPermission().getDescription();
 		ModelAndView mv = new ModelAndView("helloWorld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);
 		return mv;
 	}
+	@RequestMapping("/fblogin")
+	public ModelAndView showLogin() {
+		return new ModelAndView("fblogin");
+	}
+
 }

@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+  <html xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 	<body>
+		<span sec:authentication="name">Usuario</span>
 		<h2>Ahora si que Hello World! con mensaje:<span th:text="message"></span></h2>
 		<input type="text" name="pepe" th:value="message"/>
+		<input type="submit" th:value="#{public.label.login.acceder}"/>
+		<p th:text="#{public.label.login.acceder}">por defecto</p>
 	</body>
 </html>

@@ -10,4 +10,6 @@ public interface UserDAO {
 	
 	public List<User> list();
 	
+	public User finfByEmail(String email);
+	
 }
