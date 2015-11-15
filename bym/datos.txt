@@ -8,6 +8,13 @@ BYMgmail-1973
 
 Página de administración de la web en ono:
 
-webadmin.basanezymercader.es
-admin
-B84459346
+Administración del dominio:
+HOST:		webadmin.basanezymercader.es
+USER:		admin
+PSWD: 		B84459346
+
+FTP para ficheros:
+HOST:		ftp://www.basanezymercader.es
+USER:		admin.www.basanezymercader.es
+PSWD:		mcm6909
+* Modo pasivo 

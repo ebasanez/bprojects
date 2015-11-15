@@ -1,0 +1,24 @@
+body {background-image: url(objetos/fondo.png)}
+.centrado {text-align:center}
+#cabecera {background-color: #B2DFEE }
+#navegacion {background-color: #CAE1FF }
+#contenido {background-color: #63B8FF }
+#pie {background-color: #4169E1} 
+#global {width:800px ; margin: 4px auto }
+body {text-align: center}
+#menu {background-color: yellow; width: 300px ; float:left }
+.izquierda {text-align:left}
+.derecha {text-align:right}
+.justificado {text-align:justify}
+body {background-image: url(objetos/fondo.png)}
+.centrado {text-align:center}
+#cabecera {background-color: #4169E1 }
+#navegacion {background-color: #CAE1FF }
+#contenido {background-color: #63B8FF }
+#pie {background-color: #4169E1} 
+#global {width:800px ; margin: 4px auto }
+body {text-align: center}
+#menu {background-color: yellow; width: 300px ; float:left }
+.izquierda {text-align:left}
+.derecha {text-align:right}
+.justificado {text-align:justify}

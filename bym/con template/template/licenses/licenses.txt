@@ -1,0 +1,118 @@
+
+----------------------------------------------------------------FONT----------------------------------------------------------------
+
+Before opening any psd file please download and install 'Open Sans' Google Web Font and 'Santa Fe'.
+
+Download Google Web Font:
+http://www.google.com/fonts/download?kit=3hvsV99qyKCBS55e5pvb3ltkqrIMaAZWyLYEoB48lSQ
+
+Download Santa Fe LET:
+http://www.fontpalace.com/font-download/Santa+Fe+LET+Plain1.0/
+
+---------------------------------------------------------------PLUGINS---------------------------------------------------------------
+
+Slider Revolution Responsive jQuery Plugin - Extdended License with author permission
+http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848
+
+Isotope Plugin - Developer License
+http://isotope.metafizzy.co
+
+You may incorporate these plugins only into the work you are creating using 'imbus - Simple HTML Template',
+you may not use them alone, or in other projects.
+
+----------------------------------------------------------IMAGES in PREVIEW-----------------------------------------------------------
+
+http://www.flickr.com/photos/bensonkua/8129786745/in/photostream
+http://www.flickr.com/photos/sacharules/5635621969/sizes/o/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5604491417/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5706274666/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5177506792/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5452147202/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5376959114/sizes/l/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/5804001864/sizes/l/in/photostream/
+http://www.flickr.com/photos/91499534@N00/538770492/sizes/l/in/photostream/
+http://www.flickr.com/photos/ernestoborges/8353832350/sizes/l/in/photostream/
+http://www.flickr.com/photos/ernestoborges/8045902487/
+http://www.flickr.com/photos/davidrwilliams/6916072767/sizes/l/in/photostream/
+http://www.flickr.com/photos/qhimm/7110439071/sizes/l/in/photostream/
+http://www.flickr.com/photos/scott-s_photos/7764089378/sizes/o/in/photostream/
+http://www.flickr.com/photos/ernestoborges/8046084688/sizes/k/in/photostream/
+http://www.flickr.com/photos/ulfbodin/8270995862/in/photostream/
+http://www.flickr.com/photos/ulfbodin/8006824288/sizes/k/in/photostream/
+http://www.flickr.com/photos/ulfbodin/7796225106/in/photostream/
+http://www.flickr.com/photos/ulfbodin/7774882048/sizes/k/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5085741419/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5084230263/in/photostream
+http://www.flickr.com/photos/garrettcoyte/5085112222/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5163544426/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/4947691420/sizes/l/in/photostream/
+http://www.flickr.com/photos/ulfbodin/8481865478/sizes/k/in/photostream/
+http://www.flickr.com/photos/ulfbodin/8384992774/sizes/k/in/photostream/
+http://www.flickr.com/photos/vercedyan/6077540568/sizes/o/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8435449302/sizes/k/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8240222989/sizes/l/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8073545721/sizes/h/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/6129472019/sizes/l/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/5656659147/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/4725352678/sizes/l/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/4666517793/sizes/z/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/4542534636/sizes/z/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8435449302/
+http://www.flickr.com/photos/mikebaird/5325664985/sizes/o/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5405020123/sizes/o/in/photostream/
+http://www.flickr.com/photos/die-leuchtturms/8423894560/sizes/k/in/photostream/
+http://www.flickr.com/photos/tsoumplekas/8536811002/sizes/l/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/5639742307/sizes/l/in/photostream/
+http://www.flickr.com/photos/edmerritt/6759950929/sizes/o/in/photostream/
+http://www.flickr.com/photos/edmerritt/5888731137/sizes/l/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8435449302/
+http://www.flickr.com/photos/edmerritt/5757508391/in/photostream
+http://www.flickr.com/photos/mightyboybrian/6072993098/sizes/l/in/photostream/
+http://www.flickr.com/photos/kopaz/5107756473/sizes/o/in/photostream/
+http://www.flickr.com/photos/kopaz/7403649070/sizes/c/in/photostream/
+http://www.flickr.com/photos/kopaz/5364463036/in/photostream
+http://www.flickr.com/photos/kopaz/5425364251/sizes/l/in/photostream/
+http://www.flickr.com/photos/chavezonico/6312144955/sizes/l/in/photostream/
+http://www.flickr.com/photos/chavezonico/4828414251/sizes/l/in/photostream/
+http://www.flickr.com/photos/chavezonico/3948414162/sizes/z/in/photostream/
+http://www.flickr.com/photos/chavezonico/8463427734/sizes/o/in/photostream/
+http://www.flickr.com/photos/chavezonico/6831677207/sizes/l/in/photostream/
+http://www.flickr.com/photos/ulfbodin/7991974075/sizes/k/in/photostream/
+http://www.flickr.com/photos/vercedyan/4904671855/sizes/l/in/photostream/
+http://www.flickr.com/photos/vercedyan/4764527521/
+http://www.flickr.com/photos/ulfbodin/8227927460/sizes/l/in/photostream/
+http://www.flickr.com/photos/ulfbodin/8251908115/sizes/h/in/photostream/
+http://www.flickr.com/photos/bensonkua/3526783665/in/photostream
+http://www.flickr.com/photos/edtrigger/4151869657/sizes/o/in/photostream/
+http://www.flickr.com/photos/seanmolin/8008142448/sizes/l/in/photostream/
+http://www.flickr.com/photos/seanmolin/5928977629/sizes/o/in/photostream/
+http://www.flickr.com/photos/51035610542@N01/5849261153/sizes/l/in/set-72157626834175735/
+http://www.flickr.com/photos/systemonegang/351609423/sizes/z/in/photostream/
+http://www.flickr.com/photos/51035610542@N01/5849261153/sizes/l/in/set-72157626834175735/
+http://www.flickr.com/photos/seanmolin/5305754902/sizes/l/in/photostream/
+http://www.flickr.com/photos/seanmolin/5305754902/
+http://www.flickr.com/photos/seanmolin/5007025785/sizes/l/in/photostream/
+http://www.flickr.com/photos/payalnic/5702880333/sizes/l/in/photostream/
+http://www.flickr.com/photos/payalnic/8289805073/sizes/l/in/photostream/
+http://www.flickr.com/photos/hansel5569/8046358897/
+http://www.flickr.com/photos/seanmolin/4962968233/sizes/l/in/photostream/
+http://www.flickr.com/photos/seanmolin/5085366371/sizes/z/in/photostream/
+http://www.flickr.com/photos/mightyboybrian/8313702785/
+http://www.flickr.com/photos/chavezonico/5435983888/
+http://www.flickr.com/photos/chavezonico/5398491821/
+http://www.flickr.com/photos/seanmolin/4150772330/sizes/o/in/photostream/
+http://www.flickr.com/photos/seanmolin/3806476125/
+http://www.flickr.com/photos/ulfbodin/7839106064/sizes/k/in/photostream/
+http://www.flickr.com/photos/die-leuchtturms/8472441999/sizes/k/in/photostream/
+http://www.flickr.com/photos/ernestoborges/8045913191/sizes/k/in/photostream/
+http://www.flickr.com/photos/garrettcoyte/5077675718/
+
+
+Please read this document: http://en.wikipedia.org/wiki/Creative_Commons
+
+----------------------------------------------------------------ICONS--------------------------------------------------------------
+
+You may incorporate the all attached icons only into the work you are creating using 'imbus - Simple HTML Template',
+you may not use them alone, or in other projects.
+
+-----------------------------------------------------------------------------------------------------------------------------------
